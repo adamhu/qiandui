@@ -1,0 +1,14 @@
+.qiandui_company_name{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 28px;
+}
+
+.qiandui_company_img{
+	float: left;
+}
+
+.qiandui_company_img img{
+	height: 83px;
+}
