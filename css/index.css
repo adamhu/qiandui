@@ -108,18 +108,18 @@ a:active {star:expression(this.onFocus=this.blur());outline-style:none;}
 .main .mainBoxTwo{ width:564px; float:left;}
 .mainBoxTwo .miao{ width:100%; overflow:hidden;}
 .mainBoxTwo h2 span{ width:440px;}
-.mainBoxTwo .mainNews{ width:262px; float:left; padding:10px 20px 0 0;}
+.mainBoxTwo .mainNews{ width:524px; float:left; padding:10px 20px 0 0;}
 .mainBoxTwo .mainNewsTwo{ padding:10px 0 0 20px;}
 .mainNews dl{ width:49px; height:48px; float:left; background:url(../images/bg_03.png) no-repeat; margin-right:14px;}
 .mainNews dl dd{ width:100%; height:24px; float:left; display:block; color:#fff; text-align:center; line-height:24px;}
 .mainNews h1{ font-size:14px; color:#666; margin-bottom:8px;}
 .mainNews p{ font-size:12px; color:#999; line-height:20px;}
-.mainNews a{ width:77px; height:27px; display:block; float:left; background:#555; text-align:center; line-height:27px; color:#fff; border:#545454 solid 1px; margin-top:24px; border-radius:3px;}
+.mainNews a{ width:77px; height:27px; display:block; float:left; background:#555; text-align:center; line-height:27px; color:#fff; border:#545454 solid 1px; margin-top:16px; border-radius:3px;}
 .mainNews a:hover{ background:#fbfbfb; border:#d2d2d2 solid 1px; color:#999;}
-.main .mainBoxThree{ width:270px; float:left; margin-left:35px; height:200px;}
-.mainBoxThree .airBox{ width:257px; height:137px; float:left; border:#e5e1e1 solid 1px; padding:5px;}
+.main .mainBoxThree{ width:270px; float:left; margin-left:35px; height:220px;}
+.mainBoxThree .airBox{ width:257px; height:137px; float:left; padding:5px;}
 
-.warpperBox .content{ width:100%; float:left; margin:25px 0 60px 0;}
+.warpperBox .content{ width:100%; float:left; margin:18px 0 60px 0;}
 .content .ask{ width:470px; overflow:hidden; float:left;}
 .ask h2{ margin-bottom:10px;}
 .ask h2 span{ width:348px;}

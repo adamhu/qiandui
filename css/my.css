@@ -17,3 +17,15 @@
 	float:right;
 	padding-right: 10px;
 }
+
+.airBox .mainNews a{
+	margin-top: 22px;
+}
+
+.banners_cycle .style-1 .inner img{
+	border-radius: 50%;
+}
+
+.banners_cycle .style-6 .inner img{
+	border-radius: 50%;
+}
