@@ -12,3 +12,8 @@
 .qiandui_company_img img{
 	height: 83px;
 }
+
+.head dl dd{
+	float:right;
+	padding-right: 10px;
+}
