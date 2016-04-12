@@ -1,13 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 /* 产品中心*/
-.warpper .productHead{ width:100%; height:80px;  background:url(../images/bg04.jpg); overflow:hidden;}
-.warpper .productHeadTwo{ background:url(../images/bg03.jpg); }
+.warpper .productHead{ width:100%; height:80px;  background:url(../images/jianjie/bg04.jpg); overflow:hidden;}
+.warpper .productHeadTwo{ background:url(../images/jianjie/bg03.jpg); }
 .warpper .productHeadThree{ background:#ff3939; }
 .warpper .productHeadFour{ background:#ffd800; }
 .warpper .productHeadFive{ background:#ff8029; }
 .warpper .productHeadSix{ background:#d6f503; }
-.productHeadBox{ width:1160px; height:80px; margin: 0 auto; background:url(../images/bg_08.png) top center no-repeat; padding:0 20px;}
+.productHeadBox{ width:1160px; height:80px; margin: 0 auto; background:url(../images/jianjie/bg_08.png) top center no-repeat; padding:0 20px;}
 .productHeadBox h2{ font-size:18px; color:#fff; float:left; line-height:80px; font-weight:bold;}
 .productHeadBox p{ font-size:12px; color:#cdcccc; float:right; line-height:80px;}
 .productHeadBox p a{color:#cdcccc;}
@@ -18,8 +18,8 @@
 /*左侧菜单手风琴*/
 .productLeft .menu{ width:100%; float:left;}
 .accordion { width:344px; overflow:hidden;}
-.accordion .link{ cursor: pointer; display: block; color:#666; font-size: 14px; position: relative; height:34px; line-height:34px; padding-left:15px; left:0px; background:url(../images/bg_02.png) left center no-repeat;}
-.accordion li.open .link {color: #ff8029; background:url(../images/bg_04.png) left center no-repeat;}
+.accordion .link{ cursor: pointer; display: block; color:#666; font-size: 14px; position: relative; height:34px; line-height:34px; padding-left:15px; left:0px; background:url(../images/jianjie/bg_02.png) left center no-repeat;}
+.accordion li.open .link {color: #ff8029; background:url(../images/jianjie/bg_04.png) left center no-repeat;}
 .submenu {display:none; font-size:12px;}
 .submenu li{ width:336px; margin:0 auto; padding-left:10px; }
 .submenu li a {display:block; color:#666; width:336px; height:35px; line-height:35px;}
@@ -31,23 +31,23 @@
 
 
 
-.accordion div.peg{color: #ff8029; background:url(../images/bg_04.png) left center no-repeat; text-decoration:underline;}
+.accordion div.peg{color: #ff8029; background:url(../images/jianjie/bg_04.png) left center no-repeat; text-decoration:underline;}
 
 .productLeft .contactUs{ width:100%; float:left; margin-top:55px; margin-bottom:100px;}
-.contactUs h1{ color:#666; height:40px; line-height:40px; text-indent:12px; width:100%; display:block; background:url(../images/bg05.jpg) no-repeat; margin-bottom:-1px;}
+.contactUs h1{ color:#666; height:40px; line-height:40px; text-indent:12px; width:100%; display:block; background:url(../images/jianjie/bg05.jpg) no-repeat; margin-bottom:-1px;}
 .contactUs ul{ width:100%; height:222px; float:left; display:block; border:#e5e5e5 solid 1px; display:block; padding-top:18px; border-top:none;}
-.contactUs ul li{ width:100%; height:37px; line-height:37px; text-indent:58px; color:#515253; font-size:12px; background:url(../images/icon_03.png) 15px 2px no-repeat;}
+.contactUs ul li{ width:100%; height:37px; line-height:37px; text-indent:58px; color:#515253; font-size:12px; background:url(../images/jianjie/icon_03.png) 15px 2px no-repeat;}
 .contactUs ul li.tel{ background-position:15px -35px;}
 .contactUs ul li.fax{ background-position:15px -72px;}
 .contactUs ul li.emall{ background-position:15px -109px;}
 .contactUs ul li.web{ background-position:15px -147px;}
 
 .product .productRight{ width:774px; float:left; margin-left:52px;}
-.productRight h2{ color:#333; font-size:18px; height:30px; display:block;background:url(../images/bg_01.png) repeat-x center ;}
+.productRight h2{ color:#333; font-size:18px; height:30px; display:block;background:url(../images/jianjie/bg_01.png) repeat-x center ;}
 .productRight em{  padding:0 10px; background: #FFFFFF; }
 /*.productRight em.e1{ width:654px;}*/
 .productRight .productMain{ width:100%; float:left;}
-.productMain li{ width:243px; float:left; display:block; background:url(../images/bg_06.png) no-repeat; margin:0 22px 10px 0;}
+.productMain li{ width:243px; float:left; display:block; background:url(../images/jianjie/bg_06.png) no-repeat; margin:0 22px 10px 0;}
 .productMain li img{ width:233px; height:155px; display:block; border:#c5c5c3 solid 1px; margin: 4px auto 0;}
 .productMain li span{ width:100%; text-align:center; display:block; color:#515253; line-height:25px; margin-top:10px }
 .productMain li.margin{ margin-right:0px;}
@@ -63,7 +63,7 @@
 /* 产品中心--内页*/
 .productRight .present{ width:100%; overflow:hidden;}
 .present .presentBox{ width:100%; float:left;}
-.presentBox .presentImg{ width:351px; height:252px; float:left; background:url(../images/bg_07.png) no-repeat;}
+.presentBox .presentImg{ width:351px; height:252px; float:left; background:url(../images/jianjie/bg_07.png) no-repeat;}
 .presentImg img{ width:337px; height:225px; display:block; margin:8px auto 0;}
 .presentBox .presentTitle{ width:390px; float:left; margin-left:33px;}
 .presentTitle h1{ color:#454545; font-size:18px; width:100%; padding-bottom:12px; border-bottom:#d3d3d3 dashed 1px; margin-bottom:5px; display:block;}
@@ -98,12 +98,12 @@
 
 /* 工程案例*/
 .productRight .case{ width:100%; overflow:hidden; margin-left:10px}
-.case .caseBox{ width:330px; height:297px; float:left; background:url(../images/bg06.jpg) center 10px no-repeat; padding:0 15px; margin:10px}
+.case .caseBox{ width:330px; height:297px; float:left; background:url(../images/jianjie/bg06.jpg) center 10px no-repeat; padding:0 15px; margin:10px}
 .case .margin{ margin-right:0px;}
 .caseBox h1{ font-size:16px; color:#666; width:100%; text-align:center; font-weight:bold;}
 .caseBox img{ width:330px; height:144px; display:block; margin:8px auto;}
 .caseBox p{ font-size:12px; color:#999; line-height:22px;}
-.caseBox a{ width:79px; height:29px; display:block; margin:4px auto 0; text-align:center; line-height:29px; font-size:12px; color:#999; background:url(../images/bg07.jpg) no-repeat;}
+.caseBox a{ width:79px; height:29px; display:block; margin:4px auto 0; text-align:center; line-height:29px; font-size:12px; color:#999; background:url(../images/jianjie/bg07.jpg) no-repeat;}
 
 /* 工程案例--内页*/
 .productRight .casePage{ width:100%; float:left; overflow:hidden;}
@@ -134,7 +134,7 @@
 /* 关于我们--公司简介*/
 .productRight .abstract{ width:100%; float:left; overflow:hidden;}
 .abstract .abstractBox,.abstract .abstractAgent{ width:100%; float:left; margin-bottom:10px;}
-.abstractBox .abstractLeft{ width:312px; float:left; height:224px; background:url(../images/bg_10.png) no-repeat;}
+.abstractBox .abstractLeft{ width:312px; float:left; height:224px; background:url(../images/jianjie/bg_10.png) no-repeat;}
 .abstractLeft img{ width:300px; height:200px; display:block; margin:6px auto 0;}
 .abstractBox .abstractRight{ width:440px; float:left; margin-left:20px;}
 .abstractRight p{ width:100%; font-size:12px; color:#888; line-height:24px;}
@@ -149,7 +149,7 @@
 
 /* 技术支持--基础涂装知识*/
 .productRight .technology{ width:100%; float:left; overflow:hidden; padding:25px 0;}
-.technology li,.information ul li{ width:100%; height:39px; border-bottom:#d3d3d3 dashed 1px; float:left; background:url(../images/bg_02.png) 5px center no-repeat; text-indent:20px;}
+.technology li,.information ul li{ width:100%; height:39px; border-bottom:#d3d3d3 dashed 1px; float:left; background:url(../images/jianjie/bg_02.png) 5px center no-repeat; text-indent:20px;}
 .technology li a,.information ul li a{ font-size:12px; color:#888; line-height:39px;}
 
 /*联系我们*/
@@ -165,7 +165,7 @@
 .contact .contactRight{ width:303px; float:left; margin-left:35px;}
 .contactRight h1{ color:#000; font-weight:bold;}
 .contactRight ul{ width:100%; height:41px; margin:22px 0 65px 0;}
-.contactRight ul li{ width:41px; height:41px; float:left; display:block; margin-right:14px; background:url(../images/icon_04.png) 0 0 no-repeat; text-indent:-9999px;}
+.contactRight ul li{ width:41px; height:41px; float:left; display:block; margin-right:14px; background:url(../images/jianjie/icon_04.png) 0 0 no-repeat; text-indent:-9999px;}
 .contactRight ul li.wb{ background-position:-55px 0;}
 .contactRight ul li.wx{ background-position:-111px 0;}
 .contactRight ul li a{width:41px; height:41px; display:block;}
@@ -173,7 +173,7 @@
 
 /*资讯中心*/
 .productRight .information{ width:100%; float:left; overflow:hidden; padding:25px 0;}
-.information .informationLeft{ width:234px; height:168px; float:left; background:url(../images/bg_11.png) no-repeat;}
+.information .informationLeft{ width:234px; height:168px; float:left; background:url(../images/jianjie/bg_11.png) no-repeat;}
 .informationLeft img{ width:226px; height:151px; display:block; margin:4px auto 0;}
 .information .informationRight{ width:510px; margin-left:30px; height:168px; float:left;}
 .informationRight h1{ width:100%; height:20px; line-height:20px; color:#454545; border-bottom:#d3d3d3 dashed 1px; padding-bottom:10px;}
