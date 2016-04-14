@@ -38,9 +38,10 @@ a:active {star:expression(this.onFocus=this.blur());outline-style:none;}
 .nav li{ float:left;/* width:89px; */height:20px; text-align:center; line-height:20px; border-left:#eaeaea solid 1px;position:relative;  padding:0px 15px}
 .nav li a{ height:16px; color:#3f3f3f; display:block; } 
 .nav li:hover>a{ color:#ff8029;}
- 
+.nav li.navShine>a{ color:#ff8029;} 
  
 .nav li.navNone{border-left:none;}
+
 /*.nav li.li_3,.nav li.li_2 { position:relative; z-index:100; }
 .nav dl.li_3_content,.nav dl.li_2_content {position:absolute; top:44px; left:0px;  z-index:99; display:none; *top:18px; width:90px; border-top:3px solid #ff780a; background:#fff;}
 .nav dl.li_3_content a:hover,.nav dl.li_2_content a:hover { color:#ff780a; }
