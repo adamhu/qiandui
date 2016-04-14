@@ -2,7 +2,7 @@
 /* CSS Document */
 /* 产品中心*/
 .warpper .productHead{ width:100%; height:80px;  background:url(../images/jianjie/bg04.jpg); overflow:hidden;}
-.warpper .productHeadTwo{ background:url(../images/jianjie/bg03.jpg); }
+.warpper .productHeadTwo{ background:red; }
 .warpper .productHeadThree{ background:#ff3939; }
 .warpper .productHeadFour{ background:#ffd800; }
 .warpper .productHeadFive{ background:#ff8029; }

@@ -37,8 +37,7 @@ a:active {star:expression(this.onFocus=this.blur());outline-style:none;}
 .headerBox .nav{ width:670px; height:20px; float:right; margin-top:32px;}
 .nav li{ float:left;/* width:89px; */height:20px; text-align:center; line-height:20px; border-left:#eaeaea solid 1px;position:relative;  padding:0px 15px}
 .nav li a{ height:16px; color:#3f3f3f; display:block; } 
-.nav li:hover>a,.nav li.label>a{ color:#ff8029;
- }
+.nav li:hover>a{ color:#ff8029;}
  
  
 .nav li.navNone{border-left:none;}
