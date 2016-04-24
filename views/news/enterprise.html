@@ -126,13 +126,13 @@
                     <div class="menu">
                         <ul id="accordion" class="accordion">
                             <li>
-                                <a href="/index.php/default/category/79.html">
-                                    <div class="link ">企业新闻</div>
+                                <a onclick="changeContentInNews(1)">
+                                    <div class="link initClick high_light1">企业新闻</div>
                                 </a>
                             </li>
                             <li>
-                                <a href="/index.php/default/category/80.html">
-                                    <div class="link ">行业资讯</div>
+                                <a onclick="changeContentInNews(2)">
+                                    <div class="link high_light2">行业资讯</div>
                                 </a>
                             </li>
                         </ul>
@@ -149,9 +149,18 @@
                     </div>
                 </div>
                 <div class="productRight">
-                    <h2> <em>企业新闻</em>
-                    </h2>
-                    <div class="abstract"></div>
+                    <h2> <em>企业新闻</em></h2>
+        <div class="caseNews">
+            <h1>关西涂料推出新型船舶防污涂料</h1>
+        </div>
+        <div class="caseNewsMain"> 
+            <p>日本关西涂料株式会社4月7日宣布推出系列船舶防污涂料“X-mile Premium”，包括远洋船舶用的低磨耗型X-mile Premium 101、中磨耗型X-mile Premium 102、高磨耗型X-mile Premium 103，以及近海和内河船舶用的低磨耗型X-mile Premium 105、中磨耗型X-mile Premium 106、高磨耗型X-mile Premium 107和超高磨耗型X-mile Premium 108。</p>
+            <p>据公司介绍，这一新型系列产品可以减少普通船舶油耗3%。</p>  
+            <p>船舶航行过程中，如贝类和藻类等生物会慢慢附着在船底表面，从而增加了阻力，影响船舶航行速度，增加油耗，缩短航行距离，特别是在远洋航运领域，会造成较大的影响。为此，目前船舶底部广泛使用防污涂料，以保持浸水部位光滑、无污物附着，提高航行速度，减少油耗。</p>
+            <p>关西涂料2011年推出的X-mile有机硅型防污涂料具有低摩擦以及良好的防开裂性能，持久的防污性能，通过水解反应能够自我抛光，对环境无害，目前已经有超过700艘船舶应用。</p>
+            <p>据关西涂料介绍，本次推出的新产品通过独特的分散系统在涂层组合物内加入了更小粒径的氧化亚铜颗粒，使防污剂获得更大的表面积，提升防污剂的早期活性，并增加防污效果，船底一旦接触水面即可发挥防污功能，而且即使在停泊是也具有防污效果。此外，新产品的表面更加平滑，因此能更有效提升船舶航行效率。</p> 
+            <p>关西涂料计划未来3年内该产品销售额达到20亿日元。新闻发布会上石野博社长指出，虽然产品价格约为70000日元/20公斤，比普通涂料高40%，但能获得长期防止海生物附着的效果，显着降低船舶航行期间的摩擦，提高船舶运营期间的整体经济价值，关西涂料未来将结合在各种涂料领域（如汽车涂料等）所取得的经验，加强在船舶涂料领域的竞争力。</p> 
+        </div>'
                 </div>
             </div>
         </div>
@@ -176,4 +185,11 @@
     <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="../../js/menu.js"></script>
     <script type="text/javascript" src="../../js/sidemenu.js"></script>
-    <script language="javascript"></body> </html>
+    <script type="text/javascript" src="../../js/my.js"></script>
+    <script>
+  $(document).ready(function(){
+    $(".initClick").click();
+
+  });
+</script>
+    </body> </html>

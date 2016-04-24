@@ -15,6 +15,7 @@
         background: #FFD800;
     }
 </style>
+
 </head>
 
 <body>
@@ -129,16 +130,16 @@
                 <div class="link">基础涂装知识</div>
                 <ul class="submenu" >
                   <li >
-                    <a href="/index.php/default/category/86.html">－ 分类一</a>
+                    <a onclick="changeBaseContentInSupport(1)" ">－ 分类一</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/87.html">－ 分类二</a>
+                    <a onclick="changeBaseContentInSupport(2)" ">－ 分类二</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/88.html">－ 分类三</a>
+                    <a onclick="changeBaseContentInSupport(3)" ">－ 分类三</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/89.html">－ 分类四</a>
+                    <a onclick="changeBaseContentInSupport(4)" ">－ 分类四</a>
                   </li>
                 </ul>
               </li>
@@ -146,31 +147,31 @@
                 <div class="link">色彩选择</div>
                 <ul class="submenu" >
                   <li >
-                    <a href="/index.php/default/category/149.html">－ RAL Colour Chart</a>
+                    <a onclick="changeColorContentInSupport(1)">－ RAL Colour Chart</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/150.html">－ HEMPEL Colour Card</a>
+                    <a onclick="changeColorContentInSupport(2)">－ HEMPEL Colour Card</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/151.html">－ JOTUN  Colour Card</a>
+                    <a onclick="changeColorContentInSupport(3)">－ JOTUN  Colour Card</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/169.html">－ British Standard Colour Chart</a>
+                    <a onclick="changeColorContentInSupport(4)">－ British Standard Colour Chart</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/170.html">－ Pantone Colour Card</a>
+                    <a onclick="changeColorContentInSupport(5)">－ Pantone Colour Card</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/172.html">－ NCS Index 1950 Range Colour Chart</a>
+                    <a onclick="changeColorContentInSupport(6)">－ NCS Index 1950 Range Colour Chart</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/171.html">－ Australian Standard AS 2700 Colour Chart</a>
+                    <a onclick="changeColorContentInSupport(7)">－ Australian Standard AS 2700 Colour Chart</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/173.html">－ GSB05 1426-2001 漆膜颜色标准样卡</a>
+                    <a onclick="changeColorContentInSupport(8)">－ GSB05 1426-2001 漆膜颜色标准样卡</a>
                   </li>
-                  <li >
-                    <a href="/index.php/default/category/174.html">－ Munsell Colour System</a>
+                  <li>
+                    <a onclick="changeColorContentInSupport(9)">－ Munsell Colour System</a>
                   </li>
                 </ul>
               </li>
@@ -178,21 +179,21 @@
                 <div class="link">涂装施工</div>
                 <ul class="submenu" >
                   <li >
-                    <a href="/index.php/default/category/91.html">－ 涂装施工</a>
+                    <a onclick="changeConstructionContentInSupport()">－ 涂装施工</a>
                   </li>
                 </ul>
               </li>
               <li class="">
-                <div class="link">相关标准</div>
+                <div class="link initClick">相关标准</div>
                 <ul class="submenu" >
                   <li >
-                    <a href="/index.php/default/category/193.html">－ ISO 12944</a>
+                    <a class="initClick" onclick="changeStandardContentInSupport(1)">－ ISO 12944</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/194.html">－ ISO 8501</a>
+                    <a onclick="changeStandardContentInSupport(2)">－ ISO 8501</a>
                   </li>
                   <li >
-                    <a href="/index.php/default/category/195.html">－ GB/T 12744</a>
+                    <a onclick="changeStandardContentInSupport(3)">－ GB/T 12744</a>
                   </li>
                 </ul>
               </li>
@@ -200,7 +201,7 @@
                 <div class="link">有问有答</div>
                 <ul class="submenu" >
                   <li >
-                    <a href="/index.php/default/category/93.html">－ 有问有答</a>
+                    <a href="../support/answer.html">－ 有问有答</a>
                   </li>
                 </ul>
               </li>
@@ -246,4 +247,11 @@
   <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
   <script type="text/javascript" src="../../js/menu.js"></script>
   <script type="text/javascript" src="../../js/sidemenu.js"></script>
-  <script language="javascript"></body> </html>
+  <script type="text/javascript" src="../../js/my.js"></script>
+  <script>
+  $(document).ready(function(){
+    $(".initClick").click();
+
+  });
+</script>
+  </body> </html>

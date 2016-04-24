@@ -132,10 +132,10 @@
                                 </ul>
                             </li>
                             <li class="">
-                                <div class="link">工业防腐品牌</div>
+                                <div class="link initClick">工业防腐品牌</div>
                                 <ul class="submenu">
                                     <li>
-                                        <a onclick="changeContentInAboutUs(1)">－ HEMPEL-海虹老人</a>
+                                        <a class="initClick" onclick="changeContentInAboutUs(1)">－ HEMPEL-海虹老人</a>
                                     </li>
                                     <li>
                                         <a onclick="changeContentInAboutUs(2)">－ JOTUN-佐敦</a>
@@ -243,4 +243,10 @@
     <script type="text/javascript" src="../../js/menu.js"></script>
     <script type="text/javascript" src="../../js/sidemenu.js"></script>
     <script type="text/javascript" src="../../js/my.js"></script>
+    <script>
+  $(document).ready(function(){
+    $(".initClick").click();
+
+  });
+</script>
     </body> </html >
