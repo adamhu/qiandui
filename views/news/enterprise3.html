@@ -13,7 +13,7 @@
 
     <style>
     .warpper .productHeadTwo{
-        background: #FF3939;
+        background: #FF8029;
     }
 </style>
 </head>
@@ -64,7 +64,7 @@
                                     <a href="../office/printer.html">打印耗材</a>
                                 </p>
                             </li>
-                            <li class="">
+                            <li class="navShine">
                                 <a href="../news/newsmain.html">资讯中心</a>
                                 <p>
                                     <a href="javascript:void(0);" class="fristnav"></a>
@@ -72,7 +72,7 @@
                                     <a href="../news/indurstry.html">行业资讯</a>
                                 </p>
                             </li>
-                            <li class="navShine">
+                            <li class="">
                                 <a href="../practice/hempel.html">工程案例</a>
                                 <p>
                                     <a href="javascript:void(0);" class="fristnav"></a>
@@ -110,64 +110,31 @@
         </div>
         <div class="productHeadTwo">
             <div class="productHeadBox">
-                <h2>工程实例</h2>
+                <h2>资讯中心</h2>
                 <p>
                     <a  >首页</a>
                     >
-                    <a href="/index.php/default/category/62.html">工程实例</a>
-                    > ／ <font>海虹老人</font>
+                    <a>资讯中心</a>
+                    > ／ <font>企业新闻</font>
                 </p>
             </div>
         </div>
         <div class="warpperBox">
             <div class="product">
                 <div class="productLeft">
-                    <h2>工程实例</h2>
+                    <h2>资讯中心</h2>
                     <div class="menu">
                         <ul id="accordion" class="accordion">
-                            <li class="">
-                                <div class="link">COSCO KANSAI-中远关西</div>
-                                <ul class="submenu" >
-                                    <li >
-                                        <a href="/index.php/default/category/152.html">－ 工程案例</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/153.html">－ 防腐方案</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/154.html">－ 施工方案</a>
-                                    </li>
-                                </ul>
+                            <li>
+                                <a href="../news/enterprise.html">
+                                    <div class="link initClick high_light1">企业新闻</div>
+                                </a>
                             </li>
-                            <li class="">
-                                <div class="link">HEMPEL-海虹老人</div>
-                                <ul class="submenu" >
-                                    <li >
-                                        <a href="/index.php/default/category/114.html">－ 工程案例</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/115.html">－ 防腐方案</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/116.html">－ 施工方案</a>
-                                    </li>
-                                </ul>
+                            <li>
+                                <a href="../news/indurstry.html">
+                                    <div class="link high_light2">行业资讯</div>
+                                </a>
                             </li>
-                            <li class="">
-                                <div class="link">JOTUN-佐敦</div>
-                                <ul class="submenu" >
-                                    <li >
-                                        <a href="/index.php/default/category/152.html">－ 工程案例</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/153.html">－ 防腐方案</a>
-                                    </li>
-                                    <li >
-                                        <a href="/index.php/default/category/154.html">－ 施工方案</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            
                         </ul>
                     </div>
 
@@ -182,9 +149,21 @@
                     </div>
                 </div>
                 <div class="productRight">
-                    <h2> <em>海虹老人</em>
-                    </h2>
-                    <div class="abstract"></div>
+                    <h2> <em>企业新闻</em></h2>
+                    <div class="information">
+
+                        <ul>
+                            <li>
+                                <a onclick="changeContentInNews(1)">中远佐敦为中国首艘万米级深渊科考船“张謇号”保驾护航</a>
+                            </li>
+                            <li>
+                                <a onclick="changeContentInNews(2)">关西涂料推出新型船舶防污涂料</a>
+                            </li>
+                            <li>
+                                <a onclick="changeContentInNews(3)">2015年海虹老人多项财务指标打破历史记录</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -209,4 +188,11 @@
     <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="../../js/menu.js"></script>
     <script type="text/javascript" src="../../js/sidemenu.js"></script>
-    <script language="javascript"></body> </html>
+    <script type="text/javascript" src="../../js/my.js"></script>
+    <script>
+  $(document).ready(function(){
+    changeContentInNews(3);
+
+  });
+</script>
+    </body> </html>
