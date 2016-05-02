@@ -4445,6 +4445,491 @@ function answerReturn(){
     $(".productRight").append(ret);
 }
 
+/*
+    产品中心相关js接口
+*/
+function productHempelClick(content){
+    $(".productRight").html("");
+    var hempel1 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel11.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel12.jpg" alt=""/>'+
+        '</div>';
+
+    var hempel2 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel2.jpg" alt=""/>'+
+        '</div>';
+
+    var hempel3 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel31.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel32.jpg" alt=""/>'+
+        '</div>';
+        
+    var hempel4 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel41.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel42.jpg" alt=""/>'+
+        '</div>';
+
+    var hempel5 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel51.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel52.jpg" alt=""/>'+
+        '</div>';
+        
+    var hempel6 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel61.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel62.jpg" alt=""/>'+
+        '</div>';
+    var hempel7 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel71.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel72.jpg" alt=""/>'+
+        '</div>';
+    var hempel8 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel81.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel82.jpg" alt=""/>'+
+        '</div>';
+    var hempel9 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel91.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel92.jpg" alt=""/>'+
+        '</div>';
+    var hempel10 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel101.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel102.jpg" alt=""/>'+
+        '</div>';
+    var hempel11 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel111.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel112.jpg" alt=""/>'+
+        '</div>';
+    var hempel12 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel121.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel122.jpg" alt=""/>'+
+        '</div>';
+    var hempel13 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel131.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel132.jpg" alt=""/>'+
+        '</div>';
+    var hempel14 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel141.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel142.jpg" alt=""/>'+
+        '</div>';
+    var hempel15 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel151.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel152.jpg" alt=""/>'+
+        '</div>';
+    var hempel11 = '<h2> <em>海虹老人</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/hempel11.jpg" alt=""/>'+
+        '<img src="../../images/product/hempel12.jpg" alt=""/>'+
+        '</div>';
+    switch(content){
+        case 1:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '15890 无机硅酸锌车间底漆']);
+            $(".productRight").append(hempel1);
+            break;
+        case 2:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '稀释剂']);
+            $(".productRight").append(hempel2);
+            break;
+        case 3:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '1578A 无机富锌']);
+            $(".productRight").append(hempel3);
+            break;
+        case 4:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '12050 醇酸底漆']);
+            $(".productRight").append(hempel4);
+            break;
+        case 5:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '15300 环氧底漆']);
+            $(".productRight").append(hempel5);
+            break;
+        case 6:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '15360 环氧富锌底漆']);
+            $(".productRight").append(hempel6);
+            break;
+        case 7:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '15570 环氧底漆']);
+            $(".productRight").append(hempel7);
+            break;
+        case 8:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '17360 环氧富锌底漆']);
+            $(".productRight").append(hempel8);
+            break;
+        case 9:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '35920 玻璃鳞片聚氨酯漆']);
+            $(".productRight").append(hempel9);
+            break;
+        case 10:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '45880 环氧面漆']);
+            $(".productRight").append(hempel10);
+            break;
+        case 11:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '55000 聚硅氧烷面漆']);
+            $(".productRight").append(hempel11);
+            break;
+        case 12:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '55210 聚氨酯面漆']);
+            $(".productRight").append(hempel12);
+            break;
+        case 13:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '55880 丙烯酸面漆']);
+            $(".productRight").append(hempel13);
+            break;
+        case 14:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '56910 耐高温硅酮铝粉漆']);
+            $(".productRight").append(hempel14);
+            break;
+        case 15:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '86951 无锡自抛光防污漆']);
+            $(".productRight").append(hempel15);
+            break;
+    }
+}
+
+function productJotunClick(content){
+    $(".productRight").html("");
+    var jotun1 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun1.jpg" alt=""/>'+
+        '</div>';
+    var jotun2 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun21.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun22.jpg" alt=""/>'+
+        '</div>';
+    var jotun3 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun31.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun32.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun33.jpg" alt=""/>'+
+        '</div>';
+    var jotun4 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun41.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun42.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun43.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun44.jpg" alt=""/>'+
+        '</div>';
+    var jotun5 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun51.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun52.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun53.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun54.jpg" alt=""/>'+
+        '</div>';
+    var jotun6 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun61.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun62.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun63.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun64.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun65.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun66.jpg" alt=""/>'+
+        '</div>';
+    var jotun7 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun71.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun72.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun73.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun74.jpg" alt=""/>'+
+        '</div>';
+    var jotun8 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun81.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun82.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun83.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun84.jpg" alt=""/>'+
+        '</div>';
+    var jotun9 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun91.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun92.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun93.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun94.jpg" alt=""/>'+
+        '</div>';
+    var jotun10 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun101.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun102.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun103.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun104.jpg" alt=""/>'+
+        '</div>';
+    var jotun11 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun111.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun112.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun113.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun114.jpg" alt=""/>'+
+        '</div>';
+    var jotun12 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun121.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun122.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun123.jpg" alt=""/>'+
+        '</div>';
+    var jotun13 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun131.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun132.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun133.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun134.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun135.jpg" alt=""/>'+
+        '</div>';
+    var jotun14 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun141.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun142.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun143.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun144.jpg" alt=""/>'+
+        '</div>';
+    var jotun15 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun151.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun152.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun153.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun154.jpg" alt=""/>'+
+        '</div>';
+    var jotun16 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun161.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun162.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun163.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun164.jpg" alt=""/>'+
+        '</div>';
+    var jotun17 = '<h2> <em>佐敦</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/jotun171.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun172.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun173.jpg" alt=""/>'+
+        '<img src="../../images/product/jotun174.jpg" alt=""/>'+
+        '</div>';
+
+
+    switch(content){
+        case 1:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '7号稀释剂']);
+            $(".productRight").append(jotun1);
+            break;
+        case 2:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '17号稀释剂']);
+            $(".productRight").append(jotun2);
+            break;
+        case 3:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '醇酸底漆 Alkydprimer']);
+            $(".productRight").append(jotun3);
+            break;
+        case 4:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '醇酸面漆 Pilot II']);
+            $(".productRight").append(jotun4);
+            break;
+        case 5:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '改性环氧底漆 Jotamastic 80']);
+            $(".productRight").append(jotun5);
+            break;
+        case 6:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '改性耐磨环氧漆87 Jotamastic 87']);
+            $(".productRight").append(jotun6);
+            break;
+        case 7:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '环氧富锌77CN Barrier 77 CN']);
+            $(".productRight").append(jotun7);
+            break;
+        case 8:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '环氧富锌Barrier ZEP']);
+            $(".productRight").append(jotun8);
+            break;
+        case 9:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '环氧漆面漆FC Penguard FC']);
+            $(".productRight").append(jotun9);
+            break;
+        case 10:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '环氧压载水舱漆BT Jotacote BT']);
+            $(".productRight").append(jotun10);
+            break;
+        case 11:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '聚氨酯面漆Hardtop XP']);
+            $(".productRight").append(jotun11);
+            break;
+        case 12:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '铝粉耐热漆 Aluminium Paint H.R.']);
+            $(".productRight").append(jotun12);
+            break;
+        case 13:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '无溶剂环氧饮水舱专用漆Tankguard 412']);
+            $(".productRight").append(jotun13);
+            break;
+        case 14:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '通用耐磨环氧漆Jotacote Universal']);
+            $(".productRight").append(jotun14);
+            break;
+        case 15:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '无机硅酸富锌底漆Resist 86']);
+            $(".productRight").append(jotun15);
+            break;
+        case 16:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '无机锌车间底漆2008 Muki Z 2008']);
+            $(".productRight").append(jotun16);
+            break;
+        case 17:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '佐敦', '无锡自抛光防污漆90 SeaForce 90']);
+            $(".productRight").append(jotun17);
+            break;
+    }
+}
+
+function productKansaiClick(content){
+    $(".productRight").html("");
+    var kansai1 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai11.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai12.jpg" alt=""/>'+
+        '</div>';
+    var kansai2 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai21.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai22.jpg" alt=""/>'+
+        '</div>';
+    var kansai3 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai31.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai32.jpg" alt=""/>'+
+        '</div>';
+    var kansai4 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai41.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai42.jpg" alt=""/>'+
+        '</div>';
+    var kansai5 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai51.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai52.jpg" alt=""/>'+
+        '</div>';
+    var kansai6 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai61.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai62.jpg" alt=""/>'+
+        '</div>';
+    var kansai7 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai71.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai72.jpg" alt=""/>'+
+        '</div>';
+    var kansai8 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai81.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai82.jpg" alt=""/>'+
+        '</div>';
+    var kansai9 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai91.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai92.jpg" alt=""/>'+
+        '</div>';
+    var kansai10 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai101.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai102.jpg" alt=""/>'+
+        '</div>';
+    var kansai11 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai111.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai112.jpg" alt=""/>'+
+        '</div>';
+    var kansai12 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai121.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai122.jpg" alt=""/>'+
+        '</div>';
+    var kansai13 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai131.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai132.jpg" alt=""/>'+
+        '</div>';
+    var kansai14 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai141.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai142.jpg" alt=""/>'+
+        '</div>';
+    var kansai15 = '<h2> <em>中远关西</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/product/kansai151.jpg" alt=""/>'+
+        '<img src="../../images/product/kansai152.jpg" alt=""/>'+
+        '</div>';
+
+    switch(content){
+        case 1:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '丙烯酸面漆']);
+            $(".productRight").append(kansai1);
+            break;
+        case 2:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '醇酸面漆']);
+            $(".productRight").append(kansai2);
+            break;
+        case 3:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '防污漆 Nu-Current']);
+            $(".productRight").append(kansai3);
+            break;
+        case 4:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '防锈油漆']);
+            $(".productRight").append(kansai4);
+            break;
+        case 5:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧富锌底漆 100 QD']);
+            $(".productRight").append(kansai5);
+            break;
+        case 6:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧富锌底漆500']);
+            $(".productRight").append(kansai6);
+            break;
+        case 7:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧面漆']);
+            $(".productRight").append(kansai7);
+            break;
+        case 8:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧漆 EX-500']);
+            $(".productRight").append(kansai8);
+            break;
+        case 9:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧漆 EX-600']);
+            $(".productRight").append(kansai9);
+            break;
+        case 10:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '环氧云铁漆 Epx-29']);
+            $(".productRight").append(kansai10);
+            break;
+        case 11:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '聚氨酯 6000面漆']);
+            $(".productRight").append(kansai11);
+            break;
+        case 12:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '耐磨环氧漆 AC(M)']);
+            $(".productRight").append(kansai12);
+            break;
+        case 13:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '特种环氧漆 GX']);
+            $(".productRight").append(kansai13);
+            break;
+        case 14:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '无机硅酸锌车间底漆 1000 HA(S)']);
+            $(".productRight").append(kansai14);
+            break;
+        case 15:
+            productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '有机硅耐热底漆 铝粉漆600']);
+            $(".productRight").append(kansai15);
+            break;
+    }
+}
 
 function productHeaderBoxContent(pathArr){
     var pathName = pathArr;
