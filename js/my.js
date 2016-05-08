@@ -513,7 +513,13 @@ function changeColorContentInSupport(content){
 
 function changeConstructionContentInSupport(){
     var construc = '<h2> <em>涂装施工</em></h2>' +
-            '<div class="caseNewsMain">暂无内容</div>';
+            '<div class="caseNewsMain">'+
+            '<img src="../../images/support/execution1.jpg" alt=""/>'+
+            '<img src="../../images/support/execution2.jpg" alt=""/>'+
+            '<img src="../../images/support/execution3.jpg" alt=""/>'+
+            '<img src="../../images/support/execution4.jpg" alt=""/>'+
+            '<img src="../../images/support/execution5.jpg" alt=""/>'+
+            '</div>';
     $(".productRight").html("");
     productHeaderBoxContent(['技术支持', '首页', '技术支持', '涂装施工']);
     $(".productRight").append(construc);
