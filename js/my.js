@@ -4581,12 +4581,8 @@ function productHempelClick(content){
         '<img src="../../images/product/hempel151.jpg" alt=""/>'+
         '<img src="../../images/product/hempel152.jpg" alt=""/>'+
         '</div>';
-    var hempel11 = '<h2> <em>海虹老人</em></h2>' +
-        '<div class="abstract" >' + 
-        '<img src="../../images/product/hempel11.jpg" alt=""/>'+
-        '<img src="../../images/product/hempel12.jpg" alt=""/>'+
-        '</div>';
-    switch(content){
+    var id = content * 1;
+    switch(id){
         case 1:
             productHeaderBoxContent(['产品中心', '首页', '产品中心', '海虹老人', '15890 无机硅酸锌车间底漆']);
             $(".productRight").append(hempel1);
@@ -4918,8 +4914,8 @@ function productKansaiClick(content){
         '<img src="../../images/product/kansai151.jpg" alt=""/>'+
         '<img src="../../images/product/kansai152.jpg" alt=""/>'+
         '</div>';
-
-    switch(content){
+    var id = content * 1;
+    switch(id){
         case 1:
             productHeaderBoxContent(['产品中心', '首页', '产品中心', '中远关西', '丙烯酸面漆']);
             $(".productRight").append(kansai1);
@@ -4981,6 +4977,72 @@ function productKansaiClick(content){
             $(".productRight").append(kansai15);
             break;
     }
+}
+
+function practiceKansaiClick(content){
+    $(".productRight").html("");
+    var kansai1 = '<h2> <em>储罐</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai11.jpg" alt=""/>'+
+        '<img src="../../images/practice/kansai12.jpg" alt=""/>'+
+        '</div>';
+
+    var kansai2 = '<h2> <em>地坪</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai2.jpg" alt=""/>'+
+        '</div>';
+
+    var kansai3 = '<h2> <em>发电厂</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai3.jpg" alt=""/>'+
+        '</div>';
+    var kansai4 = '<h2> <em>风电</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai4.jpg" alt=""/>'+
+        '</div>';
+    var kansai5 = '<h2> <em>钢结构</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai5.jpg" alt=""/>'+
+        '</div>';
+    var kansai6 = '<h2> <em>港口机械</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai6.jpg" alt=""/>'+
+        '</div>';
+    var kansai7 = '<h2> <em>桥梁</em></h2>' +
+        '<div class="abstract" >' + 
+        '<img src="../../images/practice/kansai7.jpg" alt=""/>'+
+        '</div>';
+
+    switch(content){
+        case 1:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '储罐']);
+            $(".productRight").append(kansai1);
+            break;
+        case 2:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '地坪']);
+            $(".productRight").append(kansai2);
+            break;
+        case 3:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '发电厂']);
+            $(".productRight").append(kansai3);
+            break;
+        case 4:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '风电']);
+            $(".productRight").append(kansai4);
+            break;
+        case 5:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '钢结构']);
+            $(".productRight").append(kansai5);
+            break;
+        case 6:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '港口机械']);
+            $(".productRight").append(kansai6);
+            break;
+        case 7:
+            productHeaderBoxContent(['工程案例', '首页', '工程案例', '中远关西', '桥梁']);
+            $(".productRight").append(kansai7);
+            break;
+        }
 }
 
 function productHeaderBoxContent(pathArr){
