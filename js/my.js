@@ -343,14 +343,42 @@ function changeContentInNews(content){
     技术支持    相关js接口
 */
 function changeBaseContentInSupport(content){
-    var classify1 = '<h2> <em>分类一</em></h2>' +
-            '<div class="caseNewsMain">暂无内容</div>';
-    var classify2 = '<h2> <em>分类二</em></h2>' +
-            '<div class="caseNewsMain">暂无内容</div>';
-    var classify3 = '<h2> <em>分类三</em></h2>' +
-            '<div class="caseNewsMain">暂无内容</div>';
-    var classify4 = '<h2> <em>分类四</em></h2>' +
-            '<div class="caseNewsMain">暂无内容</div>';
+    var classify1 = '<h2> <em>船舶涂装</em></h2>' +
+            '<div class="caseNewsMain">'+
+            '<img src="../../images/support/construction1.jpg" alt=""/>'+
+            '<img src="../../images/support/construction2.jpg" alt=""/>'+
+            '<img src="../../images/support/construction3.jpg" alt=""/>'+
+            '<img src="../../images/support/construction4.jpg" alt=""/>'+
+            '<img src="../../images/support/construction5.jpg" alt=""/>'+
+            '<img src="../../images/support/construction6.jpg" alt=""/>'+
+            '<img src="../../images/support/construction7.jpg" alt=""/>'+
+            '<img src="../../images/support/construction8.jpg" alt=""/>'+
+            '</div>';
+    var classify2 = '<h2> <em>涂层缺陷</em></h2>' +
+            '<div class="caseNewsMain">'+
+            '<img src="../../images/support/construction21.jpg" alt=""/>'+
+            '<img src="../../images/support/construction22.jpg" alt=""/>'+
+            '<img src="../../images/support/construction23.jpg" alt=""/>'+
+            '<img src="../../images/support/construction24.jpg" alt=""/>'+
+            '<img src="../../images/support/construction25.jpg" alt=""/>'+
+            '</div>';
+    var classify3 = '<h2> <em>涂层附着力试验的方法及判定</em></h2>' +
+            '<div class="caseNewsMain">'+
+            '<img src="../../images/support/construction31.jpg" alt=""/>'+
+            '<img src="../../images/support/construction32.jpg" alt=""/>'+
+            '<img src="../../images/support/construction33.jpg" alt=""/>'+
+            '<img src="../../images/support/construction34.jpg" alt=""/>'+
+            '</div>';
+    var classify4 = '<h2> <em>维护与保养</em></h2>' +
+            '<div class="caseNewsMain">'+
+            '<img src="../../images/support/construction41.jpg" alt=""/>'+
+            '<img src="../../images/support/construction42.jpg" alt=""/>'+
+            '<img src="../../images/support/construction43.jpg" alt=""/>'+
+            '<img src="../../images/support/construction44.jpg" alt=""/>'+
+            '<img src="../../images/support/construction45.jpg" alt=""/>'+
+            '<img src="../../images/support/construction46.jpg" alt=""/>'+
+            '<img src="../../images/support/construction47.jpg" alt=""/>'+
+            '</div>';
 
     $(".productRight").html("");
     switch(content){
@@ -379,7 +407,11 @@ function changeColorContentInSupport(content){
             '<h1>Ral Colour Chart</h1>' +
         '</div>'+
         '<div class="caseNewsMain">' + 
-        '<img width="774" src="../../images/support/color_ral.jpg" alt=""/>' +
+        '<img width="774" src="../../images/support/color_ral1.jpg" alt=""/>' +
+        '<img width="774" src="../../images/support/color_ral2.jpg" alt=""/>' +
+        '<img width="774" src="../../images/support/color_ral3.jpg" alt=""/>' +
+        '<img width="774" src="../../images/support/color_ral4.jpg" alt=""/>' +
+        '<img width="774" src="../../images/support/color_ral5.jpg" alt=""/>' +
         '</div>';
     var HEMPEL = '<h2> <em>HEMPEL Colour Card</em></h2>' +
         '<div class="caseNews">' +
@@ -2567,9 +2599,23 @@ function changeStandardContentInSupport(content){
             '</div>';
 
     var iso8501 = '<h2> <em>ISO 8501</em></h2>' +
-                '<div class="caseNewsMain">暂无内容</div>';
+                '<div class="caseNewsMain">'+
+                '<img src="../../images/support/85011.jpg" alt=""/>'+
+                '<img src="../../images/support/85012.jpg" alt=""/>'+
+                '<img src="../../images/support/85013.jpg" alt=""/>'+
+                '<img src="../../images/support/85014.jpg" alt=""/>'+
+                '<img src="../../images/support/85015.jpg" alt=""/>'+
+                '<img src="../../images/support/85016.jpg" alt=""/>'+
+                '</div>';
     var gb12744 = '<h2> <em>GB/T 12744</em></h2>' +
-                '<div class="caseNewsMain">暂无内容</div>';
+                '<div class="caseNewsMain">'+
+                '<img src="../../images/support/gb1.jpg" alt=""/>'+
+                '<img src="../../images/support/gb2.jpg" alt=""/>'+
+                '<img src="../../images/support/gb3.jpg" alt=""/>'+
+                '<img src="../../images/support/gb4.jpg" alt=""/>'+
+                '<img src="../../images/support/gb5.jpg" alt=""/>'+
+                '<img src="../../images/support/gb6.jpg" alt=""/>'+
+                '</div>';
 
     $(".productRight").html("");
     switch(content){
