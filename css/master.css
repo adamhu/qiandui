@@ -35,12 +35,13 @@
 
 .productLeft .contactUs{ width:100%; float:left; margin-top:55px; margin-bottom:100px;}
 .contactUs h1{ color:#666; height:40px; line-height:40px; text-indent:12px; width:100%; display:block; background:url(../images/jianjie/bg05.jpg) no-repeat; margin-bottom:-1px;}
-.contactUs ul{ width:100%; height:222px; float:left; display:block; border:#e5e5e5 solid 1px; display:block; padding-top:18px; border-top:none;}
+.contactUs ul{ width:100%; height:272px; float:left; display:block; border:#e5e5e5 solid 1px; display:block; padding-top:18px; border-top:none;}
 .contactUs ul li{ width:100%; height:37px; line-height:37px; text-indent:58px; color:#515253; font-size:12px; background:url(../images/jianjie/icon_03.png) 15px 2px no-repeat;}
 .contactUs ul li.tel{ background-position:15px -35px;}
 .contactUs ul li.fax{ background-position:15px -72px;}
 .contactUs ul li.emall{ background-position:15px -109px;}
 .contactUs ul li.web{ background-position:15px -147px;}
+.contactUs ul li.qrcode{ background-image: none;}
 
 .product .productRight{ width:774px; float:left; margin-left:52px;}
 .productRight h2{ color:#333; font-size:18px; height:30px; display:block;background:url(../images/jianjie/bg_01.png) repeat-x center ;}
