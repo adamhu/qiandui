@@ -91,7 +91,6 @@
                   <a href="../support/color.html">色彩选择</a>
                   <a href="../support/construction.html">涂装施工</a>
                   <a href="../support/standard.html">相关标准</a>
-                  <a href="../support/answer.html">有问有答</a>
                 </p>
               </li>
               <li class="">
@@ -133,7 +132,7 @@
                 <div class="link initClick">基础涂装知识</div>
                 <ul class="submenu" >
                   <li >
-                    <a class="initClick" onclick="changeBaseContentInSupport(1)">－ 船舶涂装</a>
+                    <a  onclick="changeBaseContentInSupport(1)">－ 船舶涂装</a>
                   </li>
                   <li >
                     <a onclick="changeBaseContentInSupport(2)">－ 涂层缺陷</a>
@@ -145,7 +144,7 @@
                     <a onclick="changeBaseContentInSupport(4)">－ 维护与保养</a>
                   </li>
                   <li >
-                    <a onclick="changeAnswerContentInSupport(2)">－ 大气腐蚀环境分类</a>
+                    <a class="initClick" onclick="changeAnswerContentInSupport(2)">－ 大气腐蚀环境分类</a>
                   </li>
                   <li >
                     <a onclick="changeAnswerContentInSupport(3)">－ 如何正确使用常温道路标线漆</a>
@@ -254,7 +253,7 @@
   <script type="text/javascript" src="../../js/my.js"></script>
   <script>
   	$(document).ready(function(){
-  		changeAnswerContentInSupport(2);
+  		$(".initClick").click();
   	});
   </script>
 </body> </html>

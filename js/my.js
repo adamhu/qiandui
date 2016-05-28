@@ -2641,13 +2641,12 @@ function changeStandardContentInSupport(content){
 }
 
 function changeAnswerContentInSupport(content){
-    var ans1 = '<h2> <em>有问有答</em></h2>' +
+    var ans1 = '<h2> <em>工业漆种类</em></h2>' +
         '<div class="caseNews">' +
             '<h1>HEMPEL工业漆的种类</h1>' +
         '</div>'+
         '<div class="caseNewsMain">' + 
         '<p>聚氨酯漆、环氧漆、有机硅漆、丙烯酸漆、氟碳漆和醇酸漆等。 聚氨酯漆由于其独特化学结构，具有多种优越的性能，首先物理机械性能好，涂膜坚硬、柔韧、光亮、丰满、耐磨、附着力强，其次其涂膜耐油、耐酸、耐化学药品性强，并且施工适应范围广，品种繁多。聚氨酯漆、环氧漆、有机硅漆、丙烯酸漆、氟碳漆和醇酸漆等。 聚氨酯漆由于其独特化学结构，具有多种优越的性能，首先物理机械性能好，涂膜坚硬、柔韧、光亮、丰满、耐磨、附着力强，其次其涂膜耐油、耐酸、耐化学药品性强，并且施工适应范围广，品种繁多。聚氨酯漆、环氧漆、有机硅漆、丙烯酸漆、氟碳漆和醇酸漆等。 聚氨酯漆由于其独特化学结构，具有多种优越的性能，首先物理机械性能好，涂膜坚硬、柔韧、光亮、丰满、耐磨、附着力强，其次其涂膜耐油、耐酸、耐化学药品性强，并且施工适应范围广，品种繁多。</p>' +
-        '<h3><a onclick="answerReturn()">返回</a></h3>'+
         '</div>';
 
     var ans2 = '<h2> <em>大气腐蚀环境分类</em></h2>' +
@@ -2849,7 +2848,6 @@ function changeAnswerContentInSupport(content){
             '  <br>'+
             '  &nbsp;氯化氢&nbsp;0.05～5&nbsp;&nbsp;'+
             '  <br>注：当大气中同时含有多种腐蚀性气体，则腐蚀级别应取最高的一种或几种为基准。</p>'+
-        '<h3><a onclick="answerReturn()">返回</a></h3>'+
         '</div>';
 
     var ans3 = '<h2> <em>常温道路标线漆</em></h2>' +
@@ -4456,13 +4454,12 @@ function changeAnswerContentInSupport(content){
             '    <span></span>'+
             '  </b>'+
             '</p>'+
-        '<h3><a onclick="answerReturn()">返回</a></h3>'+            
         '</div>';
 
     $(".productRight").html("");
     switch(content){
         case 1:
-            productHeaderBoxContent(['技术支持', '首页', '技术支持', '有问有答']);
+            productHeaderBoxContent(['技术支持', '首页', '技术支持', '工业漆种类']);
             $(".productRight").append(ans1);
             break;
         case 2:
