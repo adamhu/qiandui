@@ -268,7 +268,7 @@
                         <a href="views/aboutus/company.html" target="_blank">more>></a>
                     </h2>
                     <div class="mainNews">
-                        <dl>
+                        <dl class="dynamic_one">
                             <dd>27</dd>
                             <dd>Oct</dd>
                         </dl>
@@ -290,7 +290,7 @@
                     </h2>
                     <div class="airBox">
                         <div class="mainNews">
-                            <dl>
+                            <dl class="dynamic_one">
                                 <dd>27</dd>
                                 <dd>Oct</dd>
                             </dl>
@@ -304,7 +304,7 @@
             <div class="content">
                 <div class="ask">
                     <h2>
-                        <em>有问有答</em>
+                        <em>涂装知识</em>
                         <span></span>
                         <a href="/index.php/default/category/93.html" target="_blank">more>></a>
                     </h2>
@@ -343,13 +343,13 @@
                             <div class="akordeon-item">
                                 <div class="akordeon-item-head">
                                     <div class="akordeon-item-head-container">
-                                        <div class="akordeon-heading">如何正确使用常温道路标线漆</div>
+                                        <div class="akordeon-heading">涂层缺陷分析和处理</div>
                                     </div>
                                 </div>
                                 <div class="akordeon-item-body">
                                     <div class="akordeon-item-content">
                                         <p>
-                                            常温道道路标线涂料是自挥发快速气干性涂料，长达牌常温道道路标线涂料漆属于丙烯酸类道路漆，该产品精选原料，具有优异附着力，干燥迅速，因此，投入使用具有优异耐磨性，使用期长。
+                                            涂层缺陷分析和处理
                                             <a href="views/support/answer_index3.html" style="color:#FF0000">查看详细>></a>
                                         </p>
                                     </div>
@@ -543,5 +543,45 @@ $(document).ready(function() {
         toggle: true,
         itemsOrder: [2, 0, 1]
     });
+    dynamicDate()
 });
+
+function dynamicDate(){
+    var date = new Date();
+    date = date.getDate();
+    var msg = '<dd>' + date + '</dd><dd>' + getMonthEng() + '</dd>';
+    $('.dynamic_one').empty();
+    $('.dynamic_one').html(msg);
+}
+
+function getMonthEng(){
+    var tDate = new Date();
+    var month = tDate.getMonth();
+    switch(month){
+        case 0:
+            return 'Jan';
+        case 1:
+            return 'Feb';
+        case 2:
+            return 'Mar';
+        case 3:
+            return 'Apr';
+        case 4:
+            return 'May';
+        case 5:
+            return 'Jun';
+        case 6:
+            return 'Jul';
+        case 7:
+            return 'Aug';
+        case 8:
+            return 'Sep';
+        case 9:
+            return 'Oct';
+        case 10:
+            return 'Nov';
+        case 11:
+            return 'Dec';
+    }
+}
 </script>

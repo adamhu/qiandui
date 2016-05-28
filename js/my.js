@@ -2650,7 +2650,7 @@ function changeAnswerContentInSupport(content){
         '<h3><a onclick="answerReturn()">返回</a></h3>'+
         '</div>';
 
-    var ans2 = '<h2> <em>有问有答</em></h2>' +
+    var ans2 = '<h2> <em>大气腐蚀环境分类</em></h2>' +
         '<div class="caseNews">' +
             '<h1>大气腐蚀环境分类</h1>' +
         '</div>'+
@@ -2852,7 +2852,7 @@ function changeAnswerContentInSupport(content){
         '<h3><a onclick="answerReturn()">返回</a></h3>'+
         '</div>';
 
-    var ans3 = '<h2> <em>有问有答</em></h2>' +
+    var ans3 = '<h2> <em>常温道路标线漆</em></h2>' +
         '<div class="caseNews">' +
             '<h1>如何正确使用常温道路标线漆</h1>' +
         '</div>'+
@@ -4466,11 +4466,11 @@ function changeAnswerContentInSupport(content){
             $(".productRight").append(ans1);
             break;
         case 2:
-            productHeaderBoxContent(['技术支持', '首页', '技术支持', '有问有答']);
+            productHeaderBoxContent(['技术支持', '首页', '技术支持', '大气腐蚀环境分类']);
             $(".productRight").append(ans2);
             break;
         case 3:
-            productHeaderBoxContent(['技术支持', '首页', '技术支持', '有问有答']);
+            productHeaderBoxContent(['技术支持', '首页', '技术支持', '常温道路标线漆']);
             $(".productRight").append(ans3);
             break;
     }
